@@ -10,7 +10,7 @@ int getIntegerInput()
 
 int printAnswer(int answer)
 {
-    std::cout << "The result is: " << answer;
+    std::cout << "The result is: " << answer << '\n';
 }
 
 int main()
