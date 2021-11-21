@@ -1,4 +1,4 @@
-#include "io.h";
+#include "io.h"
 #include <iostream>
 
 int getIntegerInput()
