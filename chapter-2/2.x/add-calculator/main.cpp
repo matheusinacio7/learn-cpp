@@ -8,7 +8,7 @@ int getIntegerInput()
     return input;
 }
 
-int printAnswer(int answer)
+void printAnswer(int answer)
 {
     std::cout << "The result is: " << answer << '\n';
 }
@@ -19,4 +19,5 @@ int main()
     int a { getIntegerInput() };
     int b { getIntegerInput() };
     printAnswer(a + b);
+    return 0;
 }
