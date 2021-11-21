@@ -8,7 +8,6 @@ int main() {
     int userInput { };
     std::cout << "Enter a number: ";
     std::cin >> userInput;
-    int result = getDoubleOf(userInput);
-    std::cout << "Double of that number is: " << result << '\n';
+    std::cout << "Double of that number is: " << getDoubleOf(userInput) << '\n';
     return 0;
 }
