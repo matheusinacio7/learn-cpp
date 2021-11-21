@@ -1,18 +1,24 @@
 #include <iostream>
-#include <string>
 
-void write(std::string output)
+int getIntegerInput()
 {
-    std::cout << output;
+    int input { };
+    std::cin >> input;
+    return input;
+}
+
+int printAnswer(int answer)
+{
+    std::cout << "The result is: " << answer;
 }
 
 int main()
 {
-    write("Vamo nessa");
+    
 }
 
 
-// read
+// getIntegerInput
 // addTwoIntegers
 // write
 
